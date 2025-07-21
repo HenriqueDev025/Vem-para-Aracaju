@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(231, 231, 231);
+    text-align: left;
+}
+
+.inicio {
+    text-align: center;
+    width: 800px;
+    margin-bottom: 5%;
+}
+
+.inicio img {
+    width: 800px;
+}
+
+h1 {
+    font: 3em sans-serif;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.place {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 5%;
+}
+p{
+    display: block;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.place img {
+    width: 250px;
+    float: left;
+
+}
+img {
+    overflow-clip-margin: content-box;
+}
